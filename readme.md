@@ -13,7 +13,7 @@
 美化界面。尽量与QQ等界面相同。
 
 ## 系统展示
-建立连接图
+建立连接图  
 ![01建立连接](https://github.com/JosanSun/SimpleChat/blob/master/pic/01%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5.png  "建立连接")   
 消息传递图  
 ![02消息传递](https://github.com/JosanSun/SimpleChat/blob/master/pic/02%E8%BF%9B%E8%A1%8C%E6%B6%88%E6%81%AF%E7%9A%84%E4%BC%A0%E9%80%92.png  "消息传递界面")
