@@ -14,7 +14,7 @@ class ServerWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit ServerWidget(QWidget *parent = 0);
+    explicit ServerWidget(QWidget *parent = nullptr);
     ~ServerWidget();
 
 private slots:
@@ -22,10 +22,10 @@ private slots:
     void on_buttonClose_clicked();
 
 private:
-    Ui::ServerWidget *ui;
+    Ui::ServerWidget *ui  = nullptr;
 
-    QTcpServer *tcpServer;  //监听套接字
-    QTcpSocket *tcpSocket;  //通信套接字
+    QTcpServer *tcpServer = nullptr;  //监听套接字
+    QTcpSocket *tcpSocket = nullptr;  //通信套接字
 };
 
 #endif // SERVERWIDGET_H

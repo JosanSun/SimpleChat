@@ -1,0 +1,12 @@
+# Change Log
+# All notable changes to this project will be documented in this file.
+
+## [1.0] 2018-04-01
+### Added
+- 增加客户端与服务端通信的时间记录
+- 增加服务器出错记录
+- 增加simpleChat的图标设置
+ 
+## [0.1] 2017-09-21   
+### Added  
+- Simple Chat的整体框架搭建完成， 可以实现互相通信。 

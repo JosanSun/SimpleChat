@@ -36,14 +36,14 @@
     </widget>
    </item>
    <item row="4" column="0" colspan="3">
-    <widget class="QTextEdit" name="textEditRead">
+    <widget class="QTextEdit" name="textEditReceive">
      <property name="readOnly">
       <bool>true</bool>
      </property>
     </widget>
    </item>
    <item row="5" column="0" colspan="3">
-    <widget class="QTextEdit" name="textEditWrite"/>
+    <widget class="QTextEdit" name="textEditSend"/>
    </item>
    <item row="6" column="0" colspan="3">
     <layout class="QHBoxLayout" name="horizontalLayout">

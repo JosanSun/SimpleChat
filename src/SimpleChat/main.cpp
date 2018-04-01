@@ -1,14 +1,18 @@
-#include "serverwidget.h"
-#include "clientwidget.h"
 #include <QApplication>
+
+#include "server/serverwidget.h"
+#include "client/clientwidget.h"
+
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    ServerWidget w;
-    w.show();
+    QApplication app(argc, argv);
 
-    ClientWidget w2;
-    w2.show();
-    return a.exec();
+    ServerWidget server;
+    server.show();
+
+    ClientWidget client;
+    client.show();
+
+    return app.exec();
 }

@@ -26,18 +26,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-    serverwidget.cpp \
-    clientwidget.cpp
+    server/serverwidget.cpp \
+    client/clientwidget.cpp
 
 HEADERS += \
-    serverwidget.h \
-    clientwidget.h
+    server/serverwidget.h \
+    client/clientwidget.h \
+    myheaders.h
 
 
 FORMS += \
-    clientwidget.ui \
-    serverwidget.ui
+    client/clientwidget.ui \
+    server/serverwidget.ui
 
 CONFIG += C++11
+
+RESOURCES += \
+    simplechat.qrc
 
 

@@ -13,19 +13,17 @@ class ClientWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit ClientWidget(QWidget *parent = 0);
+    explicit ClientWidget(QWidget *parent = nullptr);
     ~ClientWidget();
 
 private slots:
     void on_buttonConnect_clicked();
-
     void on_buttonSend_clicked();
-
     void on_buttonClose_clicked();
 
 private:
-    Ui::ClientWidget *ui;
-    QTcpSocket* tcpSocket;
+    Ui::ClientWidget *ui  = nullptr;
+    QTcpSocket* tcpSocket = nullptr;
 };
 
 #endif // CLIENTWIDGET_H
