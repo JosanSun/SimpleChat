@@ -28,24 +28,45 @@
      </property>
     </widget>
    </item>
-   <item row="2" column="1">
+   <item row="0" column="2" rowspan="2">
+    <widget class="QPushButton" name="buttonConnect">
+     <property name="text">
+      <string>connect</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>服务器IP:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
     <widget class="QLineEdit" name="lineEditIP">
      <property name="text">
       <string>127.0.0.1</string>
      </property>
     </widget>
    </item>
-   <item row="4" column="0" colspan="3">
+   <item row="2" column="0" colspan="3">
+    <widget class="QProgressBar" name="progressBar">
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="3">
     <widget class="QTextEdit" name="textEditReceive">
      <property name="readOnly">
       <bool>true</bool>
      </property>
     </widget>
    </item>
-   <item row="5" column="0" colspan="3">
+   <item row="4" column="0" colspan="3">
     <widget class="QTextEdit" name="textEditSend"/>
    </item>
-   <item row="6" column="0" colspan="3">
+   <item row="5" column="0" colspan="3">
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="buttonSend">
@@ -75,20 +96,6 @@
       </widget>
      </item>
     </layout>
-   </item>
-   <item row="2" column="0">
-    <widget class="QLabel" name="label_2">
-     <property name="text">
-      <string>服务器IP:</string>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="2" rowspan="3">
-    <widget class="QPushButton" name="buttonConnect">
-     <property name="text">
-      <string>connect</string>
-     </property>
-    </widget>
    </item>
   </layout>
  </widget>
