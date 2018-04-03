@@ -17,9 +17,13 @@
 
 ## 系统展示
 建立连接图  
-![01建立连接](https://github.com/JosanSun/SimpleChat/blob/master/pic/01%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5.png  "建立连接")   
+![01建立连接](https://github.com/JosanSun/SimpleChat/blob/master/pic/01%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5.png  "建立连接界面")   
+
 消息传递图  
 ![02消息传递](https://github.com/JosanSun/SimpleChat/blob/master/pic/02%E8%BF%9B%E8%A1%8C%E6%B6%88%E6%81%AF%E7%9A%84%E4%BC%A0%E9%80%92.png  "消息传递界面")
+
+断开系统连接
+![03断开系统连接](https://github.com/JosanSun/SimpleChat/blob/master/pic/03%E6%96%AD%E5%BC%80%E7%B3%BB%E7%BB%9F%E8%BF%9E%E6%8E%A5.png  "断开系统连接界面")
 
 ## 相关资料
 
