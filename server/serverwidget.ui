@@ -6,49 +6,50 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>323</width>
+    <width>336</width>
     <height>271</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>SimpleChat Server</string>
+   <string>ServerWidget</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../simplechat.qrc">
     <normaloff>:/images/server-icon.jpg</normaloff>:/images/server-icon.jpg</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0" colspan="3">
+   <item row="0" column="0" colspan="4">
     <widget class="QTextEdit" name="textEditReceive">
      <property name="readOnly">
       <bool>true</bool>
      </property>
     </widget>
    </item>
-   <item row="1" column="0" colspan="3">
+   <item row="1" column="0" colspan="4">
     <widget class="QTextEdit" name="textEditSend"/>
    </item>
    <item row="2" column="0">
-    <widget class="QPushButton" name="buttonSend">
+    <widget class="QPushButton" name="buttonSelectFile">
      <property name="text">
-      <string>send</string>
+      <string>SelectFile</string>
      </property>
     </widget>
    </item>
    <item row="2" column="1">
-    <spacer name="horizontalSpacer">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
+    <widget class="QPushButton" name="buttonSendFile">
+     <property name="text">
+      <string>SendFile</string>
      </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>328</width>
-       <height>20</height>
-      </size>
-     </property>
-    </spacer>
+    </widget>
    </item>
    <item row="2" column="2">
+    <widget class="QPushButton" name="buttonSend">
+     <property name="text">
+      <string>sendMsg</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
     <widget class="QPushButton" name="buttonClose">
      <property name="text">
       <string>close</string>
