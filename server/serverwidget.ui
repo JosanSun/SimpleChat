@@ -11,41 +11,44 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>ServerWidget</string>
+   <string>SimpleChat Server</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../simplechat.qrc">
+    <normaloff>:/images/server-icon.jpg</normaloff>:/images/server-icon.jpg</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0" colspan="4">
+   <item row="0" column="0" colspan="3">
     <widget class="QTextEdit" name="textEditReceive">
      <property name="readOnly">
       <bool>true</bool>
      </property>
     </widget>
    </item>
-   <item row="1" column="0" colspan="4">
+   <item row="1" column="0" colspan="3">
     <widget class="QTextEdit" name="textEditSend"/>
    </item>
    <item row="2" column="0">
-    <widget class="QPushButton" name="buttonSelectFile">
+    <widget class="QPushButton" name="buttonSend">
      <property name="text">
-      <string>SelectFile</string>
+      <string>send</string>
      </property>
     </widget>
    </item>
    <item row="2" column="1">
-    <widget class="QPushButton" name="buttonSendFile">
-     <property name="text">
-      <string>SendFile</string>
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
      </property>
-    </widget>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>328</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
    </item>
    <item row="2" column="2">
-    <widget class="QPushButton" name="buttonSend">
-     <property name="text">
-      <string>sendMsg</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="3">
     <widget class="QPushButton" name="buttonClose">
      <property name="text">
       <string>close</string>
@@ -55,6 +58,8 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="../simplechat.qrc"/>
+ </resources>
  <connections/>
 </ui>
